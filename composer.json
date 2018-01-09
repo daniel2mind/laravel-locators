@@ -1,0 +1,30 @@
+{
+    "name": "daniel2mind/locators",
+    "description": "Estrutura de requisições para desacoplar Controllers e rotas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Barcelos",
+            "email": "daniel.barcelos@2mind.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daniel2mind\\Locators\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daniel2mind\\Locators\\src\\LocatorServiceProvider"
+            ],
+            "aliases": {
+                "Locator": "Daniel2mind\\Locators\\src\\LocatorFacade"
+            }
+        }
+    }
+}
