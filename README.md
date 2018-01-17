@@ -32,19 +32,14 @@ composer require daniel2mind/laravel-locators
 ```
 <br />
 
-2 - Inserir em config/app.php:
-```js
-'providers' => [  ... Daniel2mind\Locators\LocatorServiceProvider::class ]
-```
-<br />
 
-3 - Execute:
+2 - Execute:
 ```js
 composer dump-autoload
 ```
 <br />
 
-4 - Realize o comando abaixo, utilizando "--force" para que o arquivo RouteServiceProvider seja atualizado e os demais sejam publicados:
+3 - Realize o comando abaixo, utilizando "--force" para que o arquivo RouteServiceProvider seja atualizado e os demais sejam publicados:
 ```js
 php artisan vendor:publish --force
 ```
