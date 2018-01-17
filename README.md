@@ -28,7 +28,7 @@
 
 1 - Instalação via composer:
 ```js
-composer require daniel2mind/locators
+composer require daniel2mind/laravel-locators
 ```
 <br />
 
