@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Daniel2mind\\Locators\\": "src/"
+            "Daniel2mind\\LaravelLocators\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Daniel2mind\\Locators\\src\\LocatorServiceProvider"
+                "Daniel2mind\\LaravelLocators\\src\\LaravelLocatorServiceProvider"
             ],
             "aliases": {
-                "Locator": "Daniel2mind\\Locators\\src\\LocatorFacade"
+                "Locator": "Daniel2mind\\LaravelLocators\\src\\LaravelLocatorFacade"
             }
         }
     }

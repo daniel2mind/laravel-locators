@@ -1,10 +1,10 @@
 <?php
 
-namespace Daniel2mind\Locators;
+namespace Daniel2mind\LaravelLocators;
 
 use Illuminate\Support\ServiceProvider;
 
-class LocatorServiceProvider extends ServiceProvider
+class LaravelLocatorServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
