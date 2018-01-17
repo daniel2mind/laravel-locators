@@ -8,7 +8,7 @@
             "email": "daniel.barcelos@2mind.com.br"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0.1",
     "require": {
         "php" : ">=5.5.0"
     },
