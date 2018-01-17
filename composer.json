@@ -20,11 +20,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Daniel2mind\\LaravelLocators\\src\\LaravelLocatorServiceProvider"
-            ],
-            "aliases": {
-                "Locator": "Daniel2mind\\LaravelLocators\\src\\LaravelLocatorFacade"
-            }
+                "Daniel2mind\\LaravelLocators\\LaravelLocatorServiceProvider"
+            ]
         }
     }
 }
